@@ -1,0 +1,360 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml version="9.2.23044.234" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SolutionManifest>
+    <UniqueName>aegon_demo</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="aegon_demo" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions />
+    <Version>1.0.0.0</Version>
+    <Managed>2</Managed>
+    <Publisher>
+      <UniqueName>aegon_demo</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="aegon demo" languagecode="1033" />
+      </LocalizedNames>
+      <Descriptions />
+      <EMailAddress xsi:nil="true"></EMailAddress>
+      <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
+      <CustomizationPrefix>aegon</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>65202</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="1" schemaName="contact" behavior="0" />
+      <RootComponent type="29" id="{bc41f469-b203-ee11-8f6e-002248268df9}" behavior="0" />
+      <RootComponent type="300" schemaName="demo_demoapp1_cacc2" behavior="0" />
+      <RootComponent type="60" id="{70ad8b15-e3f3-4d7d-9e4b-16cb4e51b484}" />
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required type="1" schemaName="cu_application" displayName="Application" solution="contoso_university_core (1.0.0.2)" />
+        <Dependent type="1" schemaName="contact" displayName="Contact" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="cu_department" displayName="Department" solution="contoso_university_core (1.0.0.2)" />
+        <Dependent type="1" schemaName="contact" displayName="Contact" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="incident" displayName="Case" solution="msdynce_Service (9.0.5.56)">
+          <package>msdynce_ServiceAnchor (9.0.23043.1005)</package>
+        </Required>
+        <Dependent type="60" displayName="Contact for Multisession experience" parentDisplayName="Contact" id="{e06af4d1-2812-45c7-a9c2-9fb73fee7bec}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_contactkpiitem" displayName="Contact KPI Item" solution="RelationshipAnalytics (9.0.1.2880)">
+          <package>msdynce_SalesInsightsAnchor (9.0.23051.10009)</package>
+        </Required>
+        <Dependent type="1" schemaName="contact" displayName="Contact" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_contactkpiitem" displayName="Contact KPI Item" solution="RelationshipAnalytics (9.0.1.2880)">
+          <package>msdynce_SalesInsightsAnchor (9.0.23051.10009)</package>
+        </Required>
+        <Dependent type="10" schemaName="msdyn_msdyn_contactkpiitem_contact_contactkpiid" displayName="msdyn_msdyn_contactkpiitem_contact_contactkpiid" parentSchemaName="msdyn_contactkpiitem" parentDisplayName="Contact KPI Item" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_dailycontactkpiitem" displayName="Daily kpis for contact" solution="RelationshipAnalytics (9.0.1.2880)">
+          <package>msdynce_SalesInsightsAnchor (9.0.23051.10009)</package>
+        </Required>
+        <Dependent type="1" schemaName="contact" displayName="Contact" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_linkedentityattributevalidity" displayName="Linked Entity Attribute Validity" solution="msdyn_leadhygiene (9.1.2305.1006)">
+          <package>msdyn_AcceleratedSalesAnchor (9.1.23051.10010)</package>
+        </Required>
+        <Dependent type="1" schemaName="contact" displayName="Contact" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_liveconversation" displayName="Ongoing conversation (Deprecated)" solution="OmnichannelBase (1.5.0.6022)">
+          <package>UnifiedRoutingPrimeAnchor (1.5.16.6542)</package>
+        </Required>
+        <Dependent type="1" schemaName="contact" displayName="Contact" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_mostcontacted" displayName="Most Contacted" solution="RelationshipAnalytics (9.0.1.2880)">
+          <package>msdynce_SalesInsightsAnchor (9.0.23051.10009)</package>
+        </Required>
+        <Dependent type="1" schemaName="contact" displayName="Contact" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_mostcontactedby" displayName="Most Contacted By" solution="RelationshipAnalytics (9.0.1.2880)">
+          <package>msdynce_SalesInsightsAnchor (9.0.23051.10009)</package>
+        </Required>
+        <Dependent type="1" schemaName="contact" displayName="Contact" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_ocliveworkitem" displayName="Conversation" solution="OmnichannelBase (1.5.0.6022)">
+          <package>UnifiedRoutingPrimeAnchor (1.5.16.6542)</package>
+        </Required>
+        <Dependent type="1" schemaName="contact" displayName="Contact" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_orgchartnode" displayName="Microsoft Orgchart node entity" solution="msdyn_LinkedInExtensions (9.0.23043.10181)">
+          <package>msdyn_SalesIntegrationsAddOns (9.0.23043.10004)</package>
+        </Required>
+        <Dependent type="1" schemaName="contact" displayName="Contact" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_preferredagent" displayName="Preferred Agent" solution="UnifiedRouting (1.0.0.3924)">
+          <package>UnifiedRoutingPrimeAnchor (1.5.16.6542)</package>
+        </Required>
+        <Dependent type="1" schemaName="contact" displayName="Contact" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_sabackupdiagnostic" displayName="sabackupdiagnostic" solution="msdyn_segment (9.1.2305.1001)">
+          <package>msdyn_AcceleratedSalesAnchor (9.1.23051.10010)</package>
+          <package>msdynce_SalesInsightsAnchor (9.0.23051.10009)</package>
+        </Required>
+        <Dependent type="1" schemaName="contact" displayName="Contact" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_salesroutingdiagnostic" displayName="salesroutingdiagnostic" solution="msdyn_segment (9.1.2305.1001)">
+          <package>msdyn_AcceleratedSalesAnchor (9.1.23051.10010)</package>
+          <package>msdynce_SalesInsightsAnchor (9.0.23051.10009)</package>
+        </Required>
+        <Dependent type="1" schemaName="contact" displayName="Contact" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_salessuggestion" displayName="Suggestion" solution="msdyn_acceleratedsales (9.1.23051.10010)">
+          <package>msdyn_AcceleratedSalesAnchor (9.1.23051.10010)</package>
+          <package>msdynce_SalesInsightsAnchor (9.0.23051.10009)</package>
+        </Required>
+        <Dependent type="1" schemaName="contact" displayName="Contact" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_segment" displayName="Segment" solution="msdyn_segment (9.1.2305.1001)">
+          <package>msdyn_AcceleratedSalesAnchor (9.1.23051.10010)</package>
+          <package>msdynce_SalesInsightsAnchor (9.0.23051.10009)</package>
+        </Required>
+        <Dependent type="10" schemaName="msdyn_msdyn_segment_contact" displayName="msdyn_msdyn_segment_contact" parentSchemaName="msdyn_segment" parentDisplayName="Segment" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_sequencetarget" displayName="Sequence Target" solution="msdyn_Sequence (9.1.2305.1003)">
+          <package>msdyn_AcceleratedSalesAnchor (9.1.23051.10010)</package>
+          <package>msdynce_SalesInsightsAnchor (9.0.23051.10009)</package>
+        </Required>
+        <Dependent type="1" schemaName="contact" displayName="Contact" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_taggedrecord" displayName="Tagged Record" solution="msdyn_VivaSalesCore (9.0.0.1924)">
+          <package>msdynce_SalesAnchor (9.0.23043.10005)</package>
+        </Required>
+        <Dependent type="1" schemaName="contact" displayName="Contact" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="msdyn_msdyn_contactkpiitem_contact_contactkpiid" displayName="msdyn_msdyn_contactkpiitem_contact_contactkpiid" parentSchemaName="msdyn_contactkpiitem" parentDisplayName="Contact KPI Item" solution="RelationshipAnalytics (9.0.1.2880)">
+          <package>msdynce_SalesInsightsAnchor (9.0.23051.10009)</package>
+        </Required>
+        <Dependent type="10" schemaName="msdyn_msdyn_contactkpiitem_contact_contactkpiid" displayName="msdyn_msdyn_contactkpiitem_contact_contactkpiid" parentSchemaName="msdyn_contactkpiitem" parentDisplayName="Contact KPI Item" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="defaultpricelevelid" displayName="Price List" parentSchemaName="contact" parentDisplayName="Contact" solution="msdynce_ProductManagement (9.0.4.0066)">
+          <package>msdynce_ProductManagementAnchor (9.0.23043.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Information" parentDisplayName="Contact" id="{894cc46a-b0cb-4ab0-8bf6-200544e46a2d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msdyn_contactkpiid" displayName="KPI" parentSchemaName="contact" parentDisplayName="Contact" solution="RelationshipAnalytics (9.0.1.2880)">
+          <package>msdynce_SalesInsightsAnchor (9.0.23051.10009)</package>
+        </Required>
+        <Dependent type="10" schemaName="msdyn_msdyn_contactkpiitem_contact_contactkpiid" displayName="msdyn_msdyn_contactkpiitem_contact_contactkpiid" parentSchemaName="msdyn_contactkpiitem" parentDisplayName="Contact KPI Item" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msdyn_contactkpiitemid" displayName="Unique Identifier for Entity Instances" parentSchemaName="msdyn_contactkpiitem" parentDisplayName="Contact KPI Item" solution="RelationshipAnalytics (9.0.1.2880)">
+          <package>msdynce_SalesInsightsAnchor (9.0.23051.10009)</package>
+        </Required>
+        <Dependent type="10" schemaName="msdyn_msdyn_contactkpiitem_contact_contactkpiid" displayName="msdyn_msdyn_contactkpiitem_contact_contactkpiid" parentSchemaName="msdyn_contactkpiitem" parentDisplayName="Contact KPI Item" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msdyn_name" displayName="Custom Entity Name" parentSchemaName="msdyn_contactkpiitem" parentDisplayName="Contact KPI Item" solution="RelationshipAnalytics (9.0.1.2880)">
+          <package>msdynce_SalesInsightsAnchor (9.0.23051.10009)</package>
+        </Required>
+        <Dependent type="10" schemaName="msdyn_msdyn_contactkpiitem_contact_contactkpiid" displayName="msdyn_msdyn_contactkpiitem_contact_contactkpiid" parentSchemaName="msdyn_contactkpiitem" parentDisplayName="Contact KPI Item" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msdyn_name" displayName="Segment name" parentSchemaName="msdyn_segment" parentDisplayName="Segment" solution="msdyn_segment (9.1.2305.1001)">
+          <package>msdyn_AcceleratedSalesAnchor (9.1.23051.10010)</package>
+          <package>msdynce_SalesInsightsAnchor (9.0.23051.10009)</package>
+        </Required>
+        <Dependent type="10" schemaName="msdyn_msdyn_segment_contact" displayName="msdyn_msdyn_segment_contact" parentSchemaName="msdyn_segment" parentDisplayName="Segment" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msdyn_segmentid" displayName="segment" parentSchemaName="msdyn_segment" parentDisplayName="Segment" solution="msdyn_segment (9.1.2305.1001)">
+          <package>msdyn_AcceleratedSalesAnchor (9.1.23051.10010)</package>
+          <package>msdynce_SalesInsightsAnchor (9.0.23051.10009)</package>
+        </Required>
+        <Dependent type="10" schemaName="msdyn_msdyn_segment_contact" displayName="msdyn_msdyn_segment_contact" parentSchemaName="msdyn_segment" parentDisplayName="Segment" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="originatingleadid" displayName="Originating Lead" parentSchemaName="contact" parentDisplayName="Contact" solution="msdynce_LeadManagement (9.0.4.0066)">
+          <package>msdynce_LeadManagementAnchor (9.0.23043.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Information" parentDisplayName="Contact" id="{894cc46a-b0cb-4ab0-8bf6-200544e46a2d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="originatingleadid" displayName="Originating Lead" parentSchemaName="contact" parentDisplayName="Contact" solution="msdynce_LeadManagement (9.0.4.0066)">
+          <package>msdynce_LeadManagementAnchor (9.0.23043.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Contact for Multisession experience" parentDisplayName="Contact" id="{e06af4d1-2812-45c7-a9c2-9fb73fee7bec}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="preferredequipmentid" displayName="Preferred Facility/Equipment" parentSchemaName="contact" parentDisplayName="Contact" solution="msdynce_Service (9.0.5.56)">
+          <package>msdynce_ServiceAnchor (9.0.23043.1005)</package>
+        </Required>
+        <Dependent type="60" displayName="Information" parentDisplayName="Contact" id="{894cc46a-b0cb-4ab0-8bf6-200544e46a2d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="preferredserviceid" displayName="Preferred Service" parentSchemaName="contact" parentDisplayName="Contact" solution="msdynce_Service (9.0.5.56)">
+          <package>msdynce_ServiceAnchor (9.0.23043.1005)</package>
+        </Required>
+        <Dependent type="60" displayName="Information" parentDisplayName="Contact" id="{894cc46a-b0cb-4ab0-8bf6-200544e46a2d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="20" displayName="Customer service app access" solution="msdynce_Customerservicehub (9.0.5.0056)" id="{3dac4d9e-568c-e611-80d4-00155d42a122}">
+          <package>msdynce_ServiceAnchor (9.0.23043.1005)</package>
+        </Required>
+        <Dependent type="60" displayName="Contact for Multisession experience" parentDisplayName="Contact" id="{e06af4d1-2812-45c7-a9c2-9fb73fee7bec}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="20" displayName="Customer Service Representative" solution="msdynce_Service (9.0.5.56)" id="{938ad1ad-2153-4ad1-9f2f-2d2901936cfe}" parentId="{ecfd0b44-5720-45e3-ae68-417ddb0fb654}">
+          <package>msdynce_ServiceAnchor (9.0.23043.1005)</package>
+        </Required>
+        <Dependent type="60" displayName="Contact for Multisession experience" parentDisplayName="Contact" id="{e06af4d1-2812-45c7-a9c2-9fb73fee7bec}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="20" displayName="CSR Manager" solution="msdynce_Service (9.0.5.56)" id="{c8f19ff8-f01b-49c0-87c9-54cb2e496356}" parentId="{1808b939-dd07-4ca7-aa99-ddd2734378f1}">
+          <package>msdynce_ServiceAnchor (9.0.23043.1005)</package>
+        </Required>
+        <Dependent type="60" displayName="Contact for Multisession experience" parentDisplayName="Contact" id="{e06af4d1-2812-45c7-a9c2-9fb73fee7bec}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Services" displayName="Active Services" parentSchemaName="service" parentDisplayName="Service" solution="msdynce_Service (9.0.5.56)" id="{2bd4de5e-a7b4-4f5d-8fde-eb3b62d8e2b2}">
+          <package>msdynce_ServiceAnchor (9.0.23043.1005)</package>
+        </Required>
+        <Dependent type="60" displayName="Information" parentDisplayName="Contact" id="{894cc46a-b0cb-4ab0-8bf6-200544e46a2d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="All Contacts" displayName="All Contacts" parentSchemaName="contact" parentDisplayName="Contact" solution="msdynce_AppCommon (9.0.4.0066)" id="{0d5d377b-5e7c-47b5-bab1-a5cb8b4ac105}">
+          <package>msdynce_AppCommonAnchor (9.0.23043.10005)</package>
+        </Required>
+        <Dependent type="60" displayName="Contacts Dashboard" parentDisplayName="Contact" id="{70ad8b15-e3f3-4d7d-9e4b-16cb4e51b484}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="My Active Cases" displayName="My Active Cases" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.5.56)" id="{00000000-0000-0000-00aa-000010001028}">
+          <package>msdynce_ServiceAnchor (9.0.23043.1005)</package>
+        </Required>
+        <Dependent type="60" displayName="Contact for Multisession experience" parentDisplayName="Contact" id="{e06af4d1-2812-45c7-a9c2-9fb73fee7bec}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="59" schemaName="Active Cases by Agent" displayName="Active Cases by Agent" parentSchemaName="incident" parentDisplayName="Case" solution="msdynce_Service (9.0.5.56)" id="{4143b74e-4a07-4d01-9ffe-2cdcaa4208fd}">
+          <package>msdynce_ServiceAnchor (9.0.23043.1005)</package>
+        </Required>
+        <Dependent type="60" displayName="Contact for Multisession experience" parentDisplayName="Contact" id="{e06af4d1-2812-45c7-a9c2-9fb73fee7bec}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="contact card" parentDisplayName="Contact" solution="msdynce_AppCommon (9.0.4.0066)" id="{707fc57b-c5e6-471b-a180-e37ed28a38e2}">
+          <package>msdynce_AppCommonAnchor (9.0.23043.10005)</package>
+        </Required>
+        <Dependent type="60" displayName="Contact for Multisession experience" parentDisplayName="Contact" id="{e06af4d1-2812-45c7-a9c2-9fb73fee7bec}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Contacts Dashboard" parentDisplayName="Contact" solution="msdynce_Service (9.0.5.56)" id="{70ad8b15-e3f3-4d7d-9e4b-16cb4e51b484}">
+          <package>msdynce_ServiceAnchor (9.0.23043.1005)</package>
+        </Required>
+        <Dependent type="60" displayName="Contacts Dashboard" parentDisplayName="Contact" id="{70ad8b15-e3f3-4d7d-9e4b-16cb4e51b484}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Information" parentDisplayName="Contact" solution="msdynce_AppCommon (9.0.4.0066)" id="{894cc46a-b0cb-4ab0-8bf6-200544e46a2d}">
+          <package>msdynce_AppCommonAnchor (9.0.23043.10005)</package>
+        </Required>
+        <Dependent type="60" displayName="Information" parentDisplayName="Contact" id="{894cc46a-b0cb-4ab0-8bf6-200544e46a2d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Contact for Multisession experience" parentDisplayName="Contact" solution="msdynce_ServicePatch201911 (9.0.23043.1005)" id="{e06af4d1-2812-45c7-a9c2-9fb73fee7bec}">
+          <package>msdynce_ServiceAnchor (9.0.23043.1005)</package>
+        </Required>
+        <Dependent type="60" displayName="Contact for Multisession experience" parentDisplayName="Contact" id="{e06af4d1-2812-45c7-a9c2-9fb73fee7bec}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="AppCommon/Contact/Contact_main_system_library.js" displayName="AppCommon/Contact/Contact_main_system_library.js" solution="msdynce_AppCommon (9.0.4.0066)">
+          <package>msdynce_AppCommonAnchor (9.0.23043.10005)</package>
+        </Required>
+        <Dependent type="60" displayName="Contact for Multisession experience" parentDisplayName="Contact" id="{e06af4d1-2812-45c7-a9c2-9fb73fee7bec}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="msdyn_/ActivityFeeds.Form.js" displayName="msdyn_/ActivityFeeds.Form.js" solution="ActivityFeedsCore (9.0.0.0009)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Contact" id="{894cc46a-b0cb-4ab0-8bf6-200544e46a2d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="msdyn_/ActivityFeeds.Form.js" displayName="msdyn_/ActivityFeeds.Form.js" solution="ActivityFeedsCore (9.0.0.0009)" />
+        <Dependent type="60" displayName="Contact for Multisession experience" parentDisplayName="Contact" id="{e06af4d1-2812-45c7-a9c2-9fb73fee7bec}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="msdyn_/RecordWall.htm" displayName="msdyn_/RecordWall.htm" solution="ActivityFeedsCore (9.0.0.0009)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Contact" id="{894cc46a-b0cb-4ab0-8bf6-200544e46a2d}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="msdyn_/RecordWall.htm" displayName="msdyn_/RecordWall.htm" solution="ActivityFeedsCore (9.0.0.0009)" />
+        <Dependent type="60" displayName="Contact for Multisession experience" parentDisplayName="Contact" id="{e06af4d1-2812-45c7-a9c2-9fb73fee7bec}" />
+      </MissingDependency>
+    </MissingDependencies>
+  </SolutionManifest>
+</ImportExportXml>
